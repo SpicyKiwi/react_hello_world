@@ -9,7 +9,7 @@ const Darkness = () => {
         <h1>Dark Mode</h1>
         <label>
             <input type="checkbox" onChange={() => { changeDarkMode(!useDarkMode) }}/> 
-            <span>Use dark mode?</span>
+            <span style={{ marginLeft: '8px'}}>Use <b>dark</b> mode?</span>
         </label>
         </div>)
 }
