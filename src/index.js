@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Profile from './Profile'
+import Profile from './Profile';
 import TicTacToe from './TicTacToe';
+import Darkness from './DarkMode';
 
 const App = (props) => {
   return <div className="app">
     <Profile />
-    <div className="dark-mode">
-      <h1>Dark Mode</h1>
-    </div>
+    <Darkness />
     <TicTacToe/>
     <div className="todo">
       <h1>Todo</h1>
